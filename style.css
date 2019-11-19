@@ -1,0 +1,55 @@
+header, footer{
+	color:white; /*comment*/
+	background-color:black;
+	padding: 10px;
+	background-image: url('https://www.achildsplacepa.org/wp-content/uploads/2018/12/GettyImages-471006158-1024x678.jpg');
+	background-repeat: no-repeat;
+
+}
+
+header h1 {
+	font-family: georgian sans-serif;
+	letter-spacing: 0.5cm;
+	font-size: 50px;
+}
+
+section {
+	padding: 5%;
+	margin: 50px;
+	border: solid 2px red;
+	border-radius: 60px 20px;
+	width: 60%
+	background-color: red;
+	opacity=90%;
+}
+
+nav ul li{
+	display: inline;
+	margin: 5px;
+}
+
+nav ul {
+	list-style-type: disc;
+}
+
+nav li {
+	border: solid 1px red;
+	border-radius: 60px;
+	padding: 1%;
+	text-align: center;
+}
+
+nav li a {
+	background-color:white;
+}
+
+#pilt {
+	width: 200px;
+	position: absolute;
+	top: 150px;
+	left: 600px;
+}
+
+a:active, a:visited, a:link{
+	text-decoration: none;	
+}
